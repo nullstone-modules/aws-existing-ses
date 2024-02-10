@@ -1,13 +1,13 @@
 org_name: Evolve
 name: aws-existing-ses
-friendly_name: AWS Existing SES Configuration
-description: Stores info for connecting to an existing AWS SES configuration
+friendly_name: AWS Existing SES Email Configuration
+description: Stores info for connecting to an existing AWS SES email configuration
 category: datastore
 subcategory: ""
 provider_types:
     - aws
-platform: email
-subplatform: ses
+platform: ses
+subplatform: ""
 type: ""
 appCategories: []
 is_public: false
